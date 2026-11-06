@@ -1,0 +1,6 @@
+{
+  "name": "Scene Shadow: Panda Speaking",
+  "description": "Movie-clip English shadowing app for Kung Fu Panda 4 with YouTube segment playback, slow motion, loop, voice recording, and self-checks.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
