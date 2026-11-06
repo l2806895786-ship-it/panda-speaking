@@ -341,6 +341,7 @@ export function ShadowingPracticeScreen({
       {/* Video Player (16:9) with mandatory credit line */}
       <YouTubePlayer
         ref={playerRef}
+        currentSegment={{ start: sentence.start, end: sentence.end }}
         onPlayStateChange={(playing) => setIsPlayingVideo(playing)}
       />
 
